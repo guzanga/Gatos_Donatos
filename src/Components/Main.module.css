@@ -1,0 +1,46 @@
+.nome{
+    color: #000000;
+    font-size: 17px;
+    font-family: Jokerman;
+    text-align: center;
+}
+
+.descricao{
+    color: #000000;
+    text-align: center;
+    font-family: Dubai;
+    font-size: 14px;
+}
+
+.valor{
+    text-align: center;
+    color: black;
+    height: 40px;
+    width: 100px;
+    background-color: #a8dbf8;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.valor:hover{
+    background-color: #627acc;
+    transition: 0.5s;
+}
+
+.display{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 12px 13px 19px 0px #a6a4a4;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+}
+
+.img{
+    height: 200px;
+    width: 150px;
+}

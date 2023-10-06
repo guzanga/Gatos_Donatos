@@ -1,0 +1,19 @@
+.atras_header{
+    display: grid;
+    grid-template-columns: 10fr 2fr 2fr 2fr;
+    background-color: #a8dbf8;
+    padding: 15px;
+    max-width: 100%;
+}
+
+.logo{
+    font-size: 20px;
+    color: #000000;
+    text-align: start;
+}
+
+.As{
+    color: #000000;
+    font-size: 15px;
+    cursor: pointer;
+}
